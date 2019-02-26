@@ -1,4 +1,4 @@
-#Livy dev server
+# Livy dev server
 
 A simple Docker executable image for Livy client apps development purpose.
 
