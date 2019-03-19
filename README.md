@@ -1,11 +1,12 @@
-#Livy dev server
+# Livy dev server
 
 A simple Docker executable image for Livy client apps development purpose.
 
 > Requirements
 
 ```
-$>cd livy-dev-server
+$>git clone https://github.com/adnls/livy-dev-server-image.git
+$>cd livy-dev-server-image
 ```
 
 > Build
@@ -24,9 +25,7 @@ $>sudo docker run -d -p 8998:8998 livy-dev-server
 
 Open your web browser and go to http://localhost:8998
 
-You should see the Livy UI.
-
 > TODO:
 
-- Enable spark ui and map port.
+- Enable spark ui and map port to outside world.
 
