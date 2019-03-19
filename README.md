@@ -24,8 +24,3 @@ $>sudo docker run -d -p 8998:8998 livy-dev-server
 > Check
 
 Open your web browser and go to http://localhost:8998
-
-> TODO:
-
-- Enable spark ui and map port to outside world.
-
