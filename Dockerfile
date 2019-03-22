@@ -19,6 +19,7 @@ EXPOSE 8998
 ENV SPARK_HOME /usr/local/spark
 
 COPY livy-server-2 /usr/local/livy/bin/  
-COPY livy.conf /usr/local/livy/conf/  
+COPY livy.conf /usr/local/livy/conf/
+COPY titanic3.csv /data/  
 
 ENTRYPOINT ["/usr/local/livy/bin/livy-server-2", "start"]
